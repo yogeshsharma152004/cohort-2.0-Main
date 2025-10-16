@@ -1,0 +1,212 @@
+@font-face {
+    font-family: satoshi;
+    src: url(./63cffc20aa8997095067596f_Satoshi-Light.woff);
+}
+@font-face {
+    font-family: robo;
+    src: url(./L0x5DF4xlVMF-BfR8bXMIjhLq38.woff2);
+}
+@font-face {
+    font-family: chill;
+    src: url(./63cffc0a3942456e003bc265_Chillax-Regular.woff);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+html{
+    color: white;
+    font-size: clamp(15px, 1vw, 18px);
+}
+body{
+    background-color: rgb(24, 24, 24);
+}
+@mixin flex-coloumn($gap:0rem){
+    display: flex;
+    flex-direction: column;
+    gap: $gap;
+}
+section{
+    max-width: 2000;
+}
+main{
+   
+    width: 100%;
+     @include flex-coloumn(0rem);
+     align-items: center;
+     
+    section{
+       width: 100%;
+       @include flex-coloumn(0.7rem);
+       padding: 1rem;
+
+    //    header{
+    //       display: flex;
+    //       align-items: center;
+    //       justify-content: space-between;
+    //       width: 100%;
+          
+
+
+    //     h1{
+    //         font-size: 1.2rem;
+    //         font-family: satoshi;
+    //         font-weight: 200;
+    //     }
+
+
+    //     div{
+    //         display: flex;
+    //         gap: 1rem;
+    //         align-items: center;
+
+    //         button{
+    //         background-color: rgb(56, 55, 55);
+    //         color: white;
+    //         font-size: 0.8rem;
+    //         border: none;
+    //         outline: none;
+    //         padding: 0.7rem ;
+    //         font-weight: 200;
+    //         border-radius: 0.5rem;
+
+    //         span{
+    //             background-color: #CEBD63;
+    //             padding: 0.3rem;
+    //             border-radius: 50%;
+    //             margin-left: 0.5rem;
+    //             color: black;
+    //         }
+    //     }
+
+    //     i{
+    //         font-size: 0.8rem;
+    //         background-color: rgb(56, 55, 55);
+    //         padding: 0.7rem ;
+    //         border-radius: 0.5rem;
+    //     }
+
+        
+    //     }
+    //    }
+
+       .top{
+        width: 100%;
+
+        img{
+            width: 100%;
+            border-radius: 0.7rem;
+        }
+       }
+
+       .bottom{
+        background-color: #2c2c2c;
+        border-radius: 0.7rem;
+        padding: 1.5rem;
+        @include flex-coloumn(1.5rem);
+
+        p{
+           font-family: robo;
+           font-size:1rem;
+        }
+
+        .text{
+            
+            @include flex-coloumn(0.5rem);
+
+            h1{
+                font-family:chill;
+                font-weight: 200;
+                font-size: 2.3rem;
+            }
+
+            p{
+               font-weight: 200;
+               opacity: 0.7;
+               font-size: 1rem;
+               line-height: 1.5;
+            }
+
+            button{
+                width: fit-content;
+                color: white;
+                padding: 0.7rem 1rem;
+                font-size: 1rem;
+                border-radius: 0.7rem;
+                border: none;
+                outline: none;
+                background-color: transparent;
+
+                i{
+                    padding: 0.4rem;
+                    margin-right: 0.5rem;
+                    border: 1px solid white;
+                    border-radius: 50%;
+                }
+            }
+        }
+       }
+
+    }
+}
+
+@media (min-width:900px){
+    main{
+        section{
+            flex-direction: row;
+            padding: 1rem 4rem ;
+
+            .top,.bottom{
+                width: 50%;
+            }
+        //     header{
+        //     h1{
+        //         font-size: 3rem;
+        //     }
+
+        //     div {
+                
+        //     button{
+        //         font-size: 1.5rem;
+        //         padding: 1.1rem;
+
+        //         span {
+        //             padding: 0.8rem;
+        //         }
+        //     }
+
+        //     i{
+        //         font-size: 1.5rem;
+        //         padding: 1.1rem;
+        //      }
+        //     }
+
+             
+        // }
+
+        .bottom{
+            justify-content: space-between;
+            padding: 3rem;
+        }
+
+        .text{
+            gap: 1.5rem;
+
+            h1{
+                font-size: 4rem;
+            }
+
+            p{
+                font-size: 2rem;
+            }
+        }
+        }
+    }
+
+}
+
