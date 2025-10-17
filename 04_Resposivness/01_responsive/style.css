@@ -16,7 +16,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
 }
@@ -30,7 +31,8 @@ body {
   background-color: rgb(24, 24, 24);
 }
 
-section {
+section,
+header {
   max-width: 2000px;
 }
 
@@ -38,16 +40,15 @@ main {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 0rem;
-  align-items: center;
-  padding: 1rem;
   gap: 1rem;
+  align-items: center;
 }
 main header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  padding: 1rem;
 }
 main header h1 {
   font-size: 1.2rem;
@@ -70,7 +71,7 @@ main header div button {
   border-radius: 0.5rem;
 }
 main header div button span {
-  background-color: #CEBD63;
+  background-color: #cebd63;
   padding: 0.3rem;
   border-radius: 50%;
   margin-left: 0.5rem;
@@ -87,6 +88,7 @@ main section {
   display: flex;
   flex-direction: column;
   gap: 0.7rem;
+  padding: 1rem;
 }
 main section .top {
   width: 100%;
@@ -142,7 +144,7 @@ main section .bottom .text button i {
 }
 
 @media (min-width: 900px) {
-  main {
+  main header {
     padding: 1rem 4rem;
   }
   main header h1 {
@@ -153,7 +155,7 @@ main section .bottom .text button i {
     padding: 1.1rem;
   }
   main header div button span {
-    padding: 0.8rem;
+    padding: 0.6rem;
   }
   main header div i {
     font-size: 1.5rem;
@@ -161,8 +163,10 @@ main section .bottom .text button i {
   }
   main section {
     flex-direction: row;
+    padding: 1rem 4rem;
   }
-  main section .top, main section .bottom {
+  main section .top,
+  main section .bottom {
     width: 50%;
   }
   main section .bottom {
