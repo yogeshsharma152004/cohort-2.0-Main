@@ -12,5 +12,5 @@
 
 ---
 
-## 🗓️ Day 25 – Motivation Session
+## 🗓️ Day 26 – Motivation Session
 - Talked about learning mindset, handling failure, and setting realistic goals before starting JavaScript  
