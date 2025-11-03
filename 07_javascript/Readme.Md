@@ -1,3 +1,8 @@
+## 🗓️ Day 26 – Motivation Session
+- Talked about learning mindset, handling failure, and setting realistic goals before starting JavaScript 
+
+---
+
 ## 🗓️ Day 27 – Introduction to JavaScript
 - What is JavaScript and why it’s important  
 - Created by **Brendan Eich** in 1995  
@@ -58,3 +63,4 @@
 ## 🗓️ Day 34 – JavaScript Logic Practice
 - Solved multiple JS questions using loops and conditionals  
 - Focused on **logic building** and **problem-solving**  
+

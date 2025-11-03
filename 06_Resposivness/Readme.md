@@ -10,7 +10,5 @@
 - Assignment: **Responsive UI of Alvy**  
 - Understood real-world responsive workflow step-by-step  
 
----
 
-## 🗓️ Day 26 – Motivation Session
-- Talked about learning mindset, handling failure, and setting realistic goals before starting JavaScript  
+ 

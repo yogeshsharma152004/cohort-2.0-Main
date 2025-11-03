@@ -26,6 +26,27 @@
 
 ---
 
+## 🗓️ Day 17 – Advanced CSS & Assignment 6: Dribbble Clone
+- Set up **CSS Boilerplate** with `box-sizing: border-box`.  
+- Learned **3D transformations**: `rotate`, `scale`, and `perspective`.  
+- Practiced **smooth animations** using `transition`.  
+- Understood **transform axes (X, Y, Z)** and how to apply rotation effects.  
+
+**Assignment 6:**  
+Built **6 Dribbble-inspired clones**, focusing on layout precision and CSS transformations.
+
+---
+
+## 🗓️ Day 18 – CSS Display, Grid & Pseudo Selectors
+- Understood difference between **Block**, **Inline**, and **Inline-Block** elements.  
+- Learned **pseudo selectors**: `:nth-child`, `:nth-last-child`.  
+- Introduction to **CSS Grid** — `grid-template-columns`, `grid-template-rows`.  
+- Advanced text effects using `background-clip: text` and `-webkit-text-stroke`.  
+- Managed overflow with `overflow: auto` and created **custom scrollbars** using  
+  `-webkit-scrollbar` and `-webkit-scrollbar-thumb`.  
+
+---
+
 ## 🗓️ Day 19 – CSS Grid & Semantic HTML
 - Overview of **semantic tags** (header, footer, section, main, aside)  
 - **Grid properties**: template rows/columns, fr, minmax, gap, align-content, repeat, start/end, template areas  
