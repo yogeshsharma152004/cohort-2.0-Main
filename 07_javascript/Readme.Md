@@ -64,3 +64,15 @@
 - Solved multiple JS questions using loops and conditionals  
 - Focused on **logic building** and **problem-solving**  
 
+
+## 🗓️ Day 35 – JavaScript Logic Building  
+
+- Solved multiple **JavaScript questions** based on loops and conditionals.  
+- Faced **tricky logic-based problems** to strengthen problem-solving skills.  
+- Learned how to **approach and break down** coding challenges effectively.  
+- Improved logical thinking and built confidence in writing efficient code.  
+
+**Takeaway:**  
+This session focused on building strong logical foundations — turning theory into practical problem-solving.
+
+
