@@ -89,3 +89,48 @@ This session focused on building strong logical foundations — turning theory i
 This session helped refine my problem-solving mindset and improve efficiency in handling real-world JavaScript logic.
 
 ---
+
+## 🗓️ Day 37 – Loops, Recursion & Introduction to Functions in JavaScript  
+
+### 🔹 Key Learnings:
+- **do...while Loop** → Ensures at least one iteration before the condition is checked.  
+- **Recursion** → A function calling itself to solve repetitive or nested problems.  
+- **Loop Control Statements** → Learned about `break` and `continue` for managing loop flow.  
+- **Introduction to Functions** →  
+  - What functions are and why they’re widely used in JavaScript.  
+  - Basic understanding of **parameters** and **arguments**.  
+
+### 💡 Takeaway:
+Functions and recursion are the foundation of logic building in JavaScript.  
+They help make code cleaner, modular, and reusable — strengthening problem-solving skills.  
+
+---
+
+## 🗓️ Day 38 – Advanced JavaScript Functions  
+
+### 🔹 Key Learnings:
+- **Parameters in JS:**  
+  - Required Parameters  
+  - Destructured Parameters  
+  - Default Parameters  
+- **Arguments:**  
+  - Positional Arguments  
+  - Default Arguments  
+  - Spread Arguments  
+
+### 🔹 Function Types & Concepts:
+- **Classic Function** – Traditional function declaration.  
+- **Nested Functions** – Functions inside other functions.  
+- **Scope Chain** – How JS searches variables through function scopes.  
+- **IIFE (Immediately Invoked Function Expression)** – Executes as soon as it’s defined.  
+- **Arrow Function** – Concise syntax for writing functions.  
+- **Higher-Order Functions** – Functions that take other functions as arguments or return them.  
+- **Callback Function** – Passed into another function to be executed later.  
+- **First-Class Functions** – JS treats functions as variables (can be passed, returned, or stored).  
+
+### 💡 Takeaway:
+Functions are the *building blocks* of JavaScript logic — they bring structure, reusability, and interactivity.  
+Mastering them is key to becoming a confident JS developer.  
+
+---
+
