@@ -134,3 +134,44 @@ Mastering them is key to becoming a confident JS developer.
 
 ---
 
+## 🗓️ Day 39 – JavaScript: Scope, Closures, Arrays & Objects  
+
+### 🔹 Key Learnings:
+
+#### 🧠 Functions & Scope
+- **Pure vs Impure Functions** – Understanding side effects and predictable behavior.  
+- **Scope in JavaScript:**
+  - Global Scope  
+  - Function Scope  
+- **Closures** – How inner functions access outer variables.  
+- **Scoping** – How JS decides where and how variables are accessible.  
+
+---
+
+#### 📦 Arrays in JavaScript
+- **Array Basics:** What arrays are, how to create and access elements.  
+- **Array Methods:**  
+  `push()`, `pop()`, `shift()`, `unshift()`, `indexOf()`, `slice()`, `reverse()`, `sort()`, `join()`, `toString()`.  
+- **Functional Methods:**  
+  `filter()`, `map()`, `reduce()`, `some()`.  
+- **Array Features:**  
+  - Destructuring arrays  
+  - Spread operator (`...`)  
+  - Iterating arrays using `for` loop & `forEach()`  
+
+---
+
+#### 🧩 Objects in JavaScript
+- **Understanding Objects:**  
+  - Data stored as **key-value pairs**.  
+  - Creating and accessing object properties.  
+  - Deleting properties.  
+  - Working with **nested objects** for structured data.
+
+---
+
+### 💡 Takeaway:
+Learned how JavaScript manages data through **arrays, objects, and closures** — the true foundation for building logic and dynamic functionality in web applications.
+
+---
+---
