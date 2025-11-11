@@ -174,4 +174,25 @@ Mastering them is key to becoming a confident JS developer.
 Learned how JavaScript manages data through **arrays, objects, and closures** — the true foundation for building logic and dynamic functionality in web applications.
 
 ---
+
+
+## 🗓️ Day 40 – JavaScript Problem Solving: Functions, Arrays & Objects  
+
+### 🔹 Key Learnings:
+
+- Strengthened understanding of **functions**, parameters, and return statements.  
+- Practiced **array operations** like:
+  - Iteration using `for` & `forEach()`
+  - Manipulation using `map()`, `filter()`, `reduce()`.  
+- Worked on **objects** — accessing, updating, and managing nested key-value pairs.  
+- Enhanced **logic-building** and **problem-solving** skills through practical coding challenges.  
+- Applied multiple JS concepts together to solve real problems efficiently.  
+
 ---
+
+### 💡 Takeaway:
+This session reinforced all previous JavaScript fundamentals through problem-solving.  
+Hands-on coding truly made the understanding of **functions, arrays, and objects** more concrete and logical.  
+
+---
+
