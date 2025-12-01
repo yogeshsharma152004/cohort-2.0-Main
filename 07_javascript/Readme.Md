@@ -212,5 +212,27 @@ A highly inspiring and thought-provoking session that reminded me —
 
 ---
 
+## 🗓️ Day 42 – Intermediate JavaScript Problem Solving
+
+### 🔄 Back to Track
+Took a short gap from learning, but now fully back into the routine and focusing on consistency again.
 
 
+
+### 🔹 Topics Practiced Today:
+- **Functions:**  
+  Logic building, parameters, returns, structuring solutions.
+
+- **Arrays:**  
+  Iteration, transformation, and solving real-world style problems using array methods.
+
+- **Objects:**  
+  Understanding data organization, accessing & updating values, and using objects in problem-solving.
+
+
+
+### 💡 Takeaway:
+A solid problem-solving session that helped strengthen understanding of functions, arrays, and objects.  
+Getting back into consistency and improving logic step-by-step.
+
+---
