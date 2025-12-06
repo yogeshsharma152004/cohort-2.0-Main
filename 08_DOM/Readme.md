@@ -84,3 +84,52 @@ This folder contains the practice tasks and learning notes from **Day 45** of th
 - Practiced combining arrays + DOM manipulation effectively.
  
 ---
+
+# Day 46 – JavaScript Timing Functions & DOM
+
+This session focused on understanding and applying JavaScript timing functions such as `setTimeout`, `setInterval`, `clearTimeout`, and `clearInterval`. These functions are essential for creating time-based UI interactions.
+
+## 📌 Key Concepts Learned
+- **setTimeout**: Delay execution of code.
+- **setInterval**: Repeated execution at fixed intervals.
+- **clearTimeout**: Stop a scheduled timeout.
+- **clearInterval**: Stop a running interval.
+- Practical usage in animations, timers, loaders, and progress indicators.
+
+## 🧪 Task – Download Progress UI
+A functional download-like interface was created where:
+- Progress increases smoothly from 0% to 100%.
+- The width of the progress bar updates using `setInterval`.
+- `clearInterval` stops the progress once complete.
+
+## 🧠 Skills Improved
+- DOM manipulation  
+- Handling asynchronous timed events  
+- Building interactive UI elements  
+- Understanding real-world timing use cases  
+
+This task strengthened the understanding of how time-controlled logic works inside the DOM.
+
+---
+
+## 🗓️ Day 47 – More on DOM (Double-Click Heart Animation)
+
+### 📌 Topics Covered
+- DOM Events: `dblclick`
+- Creating elements dynamically using `document.createElement()`
+- Adding elements inside DOM using `appendChild()`
+- Removing elements after animation using `setTimeout()`
+- CSS transitions and transform properties for animation
+  - scale()
+  - opacity
+  - cubic-bezier()
+
+### 🎯 What I Built
+- Instagram style **double-click heart like animation**
+- Heart appears at random position on double-click
+- Smooth zoom-in and fade-out animation effect
+
+### 🧠 Key Learning
+- Real-world interaction features ka logic samajh aaya
+- DOM event + animation + dynamic creation combo clear
+- User interaction based UI build karne ka confidence improve
