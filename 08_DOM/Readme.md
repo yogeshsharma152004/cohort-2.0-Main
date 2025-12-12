@@ -187,3 +187,147 @@ Frontend feels more ✨ real ✨ now!
 
 
 ---
+
+
+# 📌 Day 49 – DOM Event Listeners
+
+In today’s class, we learned how to capture and react to different user actions using JavaScript event listeners.
+
+---
+
+## 🔥 Event Listeners Covered
+
+### 🖱️ Mouse Events
+| Event | What it Detects |
+|------|----------------|
+| `mousemove` | Track pointer movement |
+| `mouseenter` | Mouse enters an element |
+| `mouseleave` | Mouse leaves an element |
+| `wheel` | Mouse scroll wheel movement |
+
+These help build features like animations, tooltips, sliders, custom cursors, etc.
+
+---
+
+### ⌨️ Keyboard Events
+| Event | Trigger |
+|------|---------|
+| `keydown` | When a key is pressed down |
+| `keypress` | While the key is being pressed |
+
+Useful in forms, shortcuts, search bars, games & more.
+
+---
+
+## 🧪 Mini Project: Custom Cursor
+- The cursor element moves according to user pointer movement
+- Built using the `mousemove` event
+- Significantly improves UI creativity & responsiveness
+
+---
+
+## 🎯 Learning Outcome
+- Better understanding of **how UI reacts to user behavior**
+- Strong grip on **interactive DOM features**
+- Can now implement smooth and engaging user interactions
+
+---
+
+### 🙌 Guided By:
+**Sarthak Bhaiya** — making DOM event handling super simple & practical 🚀
+
+---
+
+# 📌 Day 50 – More on DOM (NodeList & Multiple Element Selection)
+
+Today’s focus was on selecting and handling **multiple DOM elements** efficiently.
+
+---
+
+## 🔥 Key Concepts Learned
+
+### 1️⃣ Selecting Multiple Elements
+- Used `document.querySelectorAll("")`
+- It returns a **NodeList** of all matched elements
+
+Example:  
+Selecting all `<p>` elements or `.btn` elements at once
+
+---
+
+### 2️⃣ Understanding NodeList
+| Feature | NodeList Support |
+|--------|------------------|
+| forEach() | ✔ Works |
+| length | ✔ Works |
+| Looping | ✔ Works |
+| map(), filter(), reduce() | ❌ Does NOT work |
+
+➡ Because NodeList is **not a real Array**, just array-like.
+
+---
+
+### 3️⃣ Accessing Child Elements
+- `parent.childNodes` is used to get **all children of a parent**
+- It also returns a NodeList → including text nodes sometimes
+
+---
+
+## 🎯 Practical Learning Outcome
+- Can now control multiple buttons, images, or cards **in a single shot**
+- Easier DOM manipulation → Cleaner & scalable code
+- Better understanding of real structure of the DOM
+
+DOM is getting clearer & more powerful each day 🚀
+
+---
+
+### 🙌 Guided By
+**Sarthak Bhaiya** — making DOM extremely easy to understand 🌟
+
+---
+
+
+# 📅 Day 51 – More on DOM
+
+## 📌 Overview
+This session focused on advancing DOM skills, especially working with **querySelectorAll()** to handle multiple elements efficiently. We built two mini Instagram features to understand dynamic UI better.
+
+---
+
+## 🚀 Features Built Today
+
+### 1️⃣ Instagram Follow / Unfollow System
+- Selected all buttons using `querySelectorAll`.
+- Applied click events to each button.
+- Toggled the button state between **Follow** and **Unfollow**.
+- Learned how to handle multiple dynamic states together.
+
+---
+
+### 2️⃣ Instagram Reels Section (Dynamic Rendering)
+- Created an **Array of Objects** representing reels data:
+  - Username  
+  - Video  
+  - Profile Image  
+  - Caption  
+  - Like Count  
+  - isLiked / isFollowed states  
+- Dynamically rendered reels on the page.
+- Updated UI using JavaScript and DOM manipulation.
+
+---
+
+## 🧠 Concepts Learned
+- Working with `querySelectorAll()`  
+- Looping through NodeLists  
+- Managing UI state for multiple elements  
+- Dynamic UI generation from Array of Objects  
+- Real-world frontend component structure  
+
+---
+
+## 🎯 Learning Outcome
+This class strengthened my understanding of handling multiple DOM elements, working with structured data, and generating dynamic UI — the core of real-world frontend development.
+
+---
