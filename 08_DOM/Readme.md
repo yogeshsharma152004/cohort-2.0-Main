@@ -331,3 +331,88 @@ This session focused on advancing DOM skills, especially working with **querySel
 This class strengthened my understanding of handling multiple DOM elements, working with structured data, and generating dynamic UI — the core of real-world frontend development.
 
 ---
+
+## 🗓️ Day 52 – Event Bubbling & DOM Logic Building
+
+### 📌 Overview
+This session focused on understanding **Event Bubbling** in JavaScript and how it plays a major role in building real-world DOM logic. The class helped connect theory with practical UI behavior.
+
+---
+
+### 🧠 Key Concepts Learned
+- What **event bubbling** is and how events propagate from child to parent
+- Handling events efficiently using a **single parent container**
+- Avoiding multiple event listeners by using event delegation
+- Managing multiple UI actions with one event
+- Understanding how like and comment counters work internally
+
+---
+
+### 💡 Practical Understanding
+- One parent element can control all child interactions
+- Cleaner, optimized, and scalable DOM code
+- Better logic flow for complex UI interactions
+- Real-world mindset for building frontend features
+
+---
+
+### 🚀 Skills Gained
+- Stronger DOM fundamentals
+- Improved logic-building ability
+- Better understanding of real application behavior
+- Confidence in building interactive components
+
+---
+
+### 🎯 Takeaway
+Understanding event flow completely changes how JavaScript feels.  
+This session made DOM logic clearer, simpler, and more powerful — a big step forward in frontend development.
+
+---
+
+
+## 🗓️ Day 53 – Advanced CSS & Creative UI Effects
+
+### 📌 Overview
+Day 53 focused on **advanced frontend styling concepts** that are commonly used in modern, professional web applications.  
+The session emphasized how creative UI effects and clean CSS structure can significantly enhance user experience.
+
+---
+
+### 🎨 Topics Covered
+
+#### 1. CSS Linear Gradient (Deep Dive)
+- Understanding how linear gradients work internally
+- Controlling gradient direction, angles, and color transitions
+- Creating smooth and visually appealing background blends
+
+#### 2. CSS Root Variables (`:root`)
+- Defining global CSS variables
+- Managing colors, spacing, and themes efficiently
+- Writing cleaner, scalable, and maintainable CSS
+
+#### 3. Flashlight Hover Effect
+- Creating a hover effect where only the hovered portion is visible
+- Using CSS to simulate a real flashlight-style interaction
+- Enhancing UI interactivity with minimal code
+
+#### 4. Advanced Text Hover Effect
+- Animating text letters dynamically from A–Z
+- Settling animations into the original text
+- Understanding how micro-interactions add polish to UI
+
+---
+
+### 🧠 Key Learnings
+- Professional frontend work is all about **attention to detail**
+- Creative UI effects can be achieved using pure CSS
+- Global styling systems make large projects easier to manage
+- Small animations can create a big visual impact
+
+---
+
+### 🚀 Takeaway
+This session helped me think beyond basic layouts and focus on **creative, industry-ready frontend design**.  
+Understanding these effects brings me one step closer to building polished, real-world applications.
+
+---
