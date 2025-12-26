@@ -127,4 +127,93 @@ This project focuses on **advanced CSS animation concepts**, exploring how moder
 - Learned how to create **custom animatable CSS properties**
 - Custom properties must start with `--` (double hyphen)
 
+---
 
+# 🚀 Day 56 – Advanced CSS Concepts
+
+This session focused on **advanced and modern CSS features** that are used in professional-level frontend development to build interactive, dynamic, and visually rich user interfaces.
+
+---
+
+## 📚 Topics Covered
+
+### 🎞️ Animation Timing Functions
+Learned how timing functions control the pace of animations, helping define:
+- Smooth starts
+- Natural motion
+- Realistic transitions
+
+---
+
+### ⏯️ Animation Play State
+Understood how to control animations dynamically:
+- `animation-play-state: paused`
+- `animation-play-state: running`
+
+This allows animations to start, stop, or resume based on user interaction.
+
+---
+
+### ⚓ Anchor Positioning (Modern CSS)
+
+One of the most powerful concepts learned today.
+
+#### How Anchor Positioning Works:
+- **Target Element**
+  - Assigned using `anchor-name`
+  - Creates a reference point using `--variable`
+
+- **Positioned Element**
+  - Uses `position-anchor` to attach itself to the target
+
+This technique is extremely useful for:
+- Tooltips
+- Dropdowns
+- Popovers
+- Context menus
+
+---
+
+### 🎨 mix-blend-mode
+Learned how elements visually interact with each other using blending modes.
+This helps create:
+- Creative UI effects
+- Overlapping visuals
+- Modern design aesthetics without extra assets
+
+---
+
+### 🧠 :has() Selector
+Explored the powerful `:has()` selector:
+- Allows CSS to select a **parent element based on its child**
+- Adds conditional logic directly in CSS
+- Reduces dependency on JavaScript for simple UI logic
+
+Example use cases:
+- Styling cards if they contain specific elements
+- Changing layout based on child state
+- Cleaner and smarter CSS
+
+---
+
+## 🛠️ Technologies Used
+- HTML
+- CSS (Advanced Concepts)
+
+---
+
+## 🎯 Key Takeaways
+- CSS is now capable of handling logic-like behavior
+- Modern CSS reduces the need for JavaScript in many UI cases
+- Advanced positioning and selectors make layouts cleaner and more maintainable
+- Understanding these concepts is essential for professional frontend development
+
+---
+
+## 📌 Learning Track
+**Frontend Domination – Cohort 2.0**  
+**Community:** Sheryians Coding School  
+
+---
+
+🔥 Every advanced CSS session pushes my frontend skills to the next level.
