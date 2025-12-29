@@ -1,0 +1,56 @@
+// ## Exercise 3 — Intermediate (Callback dependency — thoda painful)
+
+// **Task (Hindi):** Teen functions banao:
+
+// 1. `loginUser`
+//    - 1 second baad callback ko `user` object de
+// 2. `fetchPermissions`
+//    - `userId` lega
+//    - 1 second baad callback ko `permissions` array de
+// 3. `loadDashboard`
+//    - `permissions` lega
+//    - 1 second baad callback ko `"Dashboard loaded"` bole
+
+// **Flow:**
+// - Pehle `loginUser`
+// - Uske andar `fetchPermissions`
+// - Uske andar `loadDashboard`
+// - Final output console mein print ho
+
+// **Goal:**
+// - Callback nesting ko feel karna
+// - Yehi structure baad mein callback hell banta hai
+
+// ---
+
+function loginUser(username ,cb){
+    console.log("login in user..");
+    
+    setTimeout(function (){
+          cb({userid:12478 , username:"yogesh"})
+    },1000)
+};
+function fetchPermissions(id , cb){
+    console.log("fetching permision...");
+    
+    setTimeout(() => {
+          cb(["read" , "write" , "delte"])
+    }, 2000);
+};
+function loadDashboard(permissions , cb){
+    console.log("loading dashboard");
+    
+    setTimeout(function(){
+         cb();
+    },2000)
+};
+
+
+loginUser("yogesh" , function(val){
+    fetchPermissions(val.userid , function(permissions){
+        loadDashboard(permissions , function(){
+            console.log("Dashboard loaded");
+            
+        })
+    })
+})

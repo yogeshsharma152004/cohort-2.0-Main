@@ -11,3 +11,4 @@ let obj ={
 // abcd.apply(obj,[1,2,3,4])
 let fnc = abcd.bind(obj,1,2,3);
 fnc();
+
