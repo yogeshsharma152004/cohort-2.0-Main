@@ -85,6 +85,90 @@ These methods are used to **manually control the value of `this`**.
 
 ---
 
+# Day 59 – Advanced JavaScript (Classes & OOP)
+
+## 📌 Overview
+This session focused on Object-Oriented Programming concepts in JavaScript, especially how to structure code using classes, inheritance, and controlled data access.
+
+---
+
+## 🧠 Topics Covered
+
+### 🔹 Class Expression
+- A class can be stored inside a variable.
+- Works similar to function expressions.
+- Useful for flexibility and cleaner code structure.
+
+---
+
+### 🔹 Inheritance
+- Inheritance allows one class to **extend** another class.
+- The child class can reuse all features of the parent class.
+- New features can be added on top of existing ones.
+- Helps in building modular, scalable applications.
+
+---
+
+### 🔹 Getter and Setter
+- Getters are used to **access** class properties.
+- Setters are used to **update** class properties safely.
+- Provides better control and validation over data.
+- Makes code more readable and maintainable.
+
+---
+
+### 🔹 Practice & Problem Solving
+- Solved questions based on previously learned Advanced JS topics.
+- Improved understanding of OOP flow and logic building.
+- Helped in clearing doubts and strengthening fundamentals.
 
 
+---
 
+# Day 60 & 61 – Asynchronous JavaScript
+
+## 📌 Overview
+These sessions introduced asynchronous behavior in JavaScript and explained how JS handles delayed and background tasks despite being single-threaded.
+
+---
+
+## 🧠 Topics Covered
+
+### 🔹 Synchronous vs Asynchronous JavaScript
+- JavaScript is single-threaded.
+- Synchronous code runs line by line.
+- Asynchronous code runs side-by-side without blocking execution.
+- Helps in handling tasks like timers, API calls, and events.
+
+---
+
+### 🔹 Callback Functions
+- A callback is a function passed as an argument.
+- It executes only after a task is completed.
+- Commonly used in asynchronous operations.
+
+---
+
+### 🔹 Callback Hell
+- Occurs when callbacks are nested inside callbacks.
+- Makes code difficult to read, debug, and maintain.
+- Highlighted the need for better async handling solutions.
+
+---
+
+### 🔹 Practice & Problem Solving
+- Solved multiple callback-based problems.
+- Practiced nested callbacks to understand real-world issues.
+- Improved async logic-building skills.
+
+---
+
+### 🔹 Introduction to Promises
+- Promises provide a cleaner way to handle async operations.
+- Promise States:
+  - Pending
+  - Fulfilled
+  - Rejected
+- Promises help avoid callback hell.
+
+---
