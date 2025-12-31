@@ -172,3 +172,101 @@ These sessions introduced asynchronous behavior in JavaScript and explained how 
 - Promises help avoid callback hell.
 
 ---
+
+# Day 62 & 63 – Promises, Async/Await & Error Handling
+
+## 📌 Overview
+These sessions focused on mastering asynchronous JavaScript using Promises and handling errors properly using modern JavaScript techniques.
+
+---
+
+## 🧠 Topics Covered
+
+### 🔹 Promises
+- Promises represent the result of an asynchronous operation.
+- Every promise has three states:
+  - Pending
+  - Resolved
+  - Rejected
+- A promise must be either resolved or rejected.
+- `then()` executes on resolve.
+- `catch()` executes on reject.
+
+---
+
+### 🔹 Async & Await
+- Async/Await works only with promises.
+- `await` pauses execution until the promise resolves.
+- `await` can only be used inside a function.
+- The parent function must be declared as `async`.
+- Makes asynchronous code cleaner and easier to read.
+
+---
+
+### 🔹 Error Handling
+- Learned why proper error handling is critical.
+- Common types of errors:
+  - Syntax Error
+  - Runtime Error
+  - Logical Error
+
+---
+
+### 🔹 Try, Catch & Finally
+- `try` block contains risky code.
+- `catch` handles errors without breaking the app.
+- `finally` runs regardless of success or failure.
+- Helps prevent application crashes.
+
+---
+
+### 🔹 Error Object
+- Understood error properties:
+  - `name`
+  - `message`
+  - `stack`
+- Learned how to throw custom errors using `throw`.
+
+---
+
+# Day 64 & 65 – Problem Solving, Debouncing & Throttling
+
+## 📌 Overview
+These sessions focused on applying advanced JavaScript concepts through real-world problem solving and understanding performance optimization techniques.
+
+---
+
+## 🧠 Day 64 – Scenario Based Problem Solving
+
+### 🔹 Weather API Scenario
+- Fetched weather data from an external API.
+- Processed asynchronous responses using JavaScript.
+- Displayed dynamic data on the UI.
+- Improved understanding of API handling and async flow.
+
+### 🔹 Bulk Email Sending Scenario
+- Simulated sending emails to multiple users.
+- Learned how asynchronous tasks run independently.
+- Understood how JavaScript manages multiple async operations.
+
+---
+
+## 🧠 Day 65 – Debouncing & Throttling
+
+### 🔹 Debouncing
+- Limits function execution until the user stops triggering an event.
+- Commonly used in:
+  - Search inputs
+  - Form validations
+- Helps reduce unnecessary API calls.
+
+### 🔹 Throttling
+- Executes a function at fixed time intervals.
+- Commonly used in:
+  - Scroll events
+  - Resize events
+- Improves performance by limiting execution frequency.
+
+---
+
+
