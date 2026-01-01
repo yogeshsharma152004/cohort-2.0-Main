@@ -270,3 +270,24 @@ These sessions focused on applying advanced JavaScript concepts through real-wor
 ---
 
 
+# 📅 Day 66 – Batchcheet & DSA Guidance Session
+
+## 📌 Overview
+Day 66 ka session completely guidance aur doubt-clearing par focused tha.  
+Is class me DSA aur Development ko saath me kaise manage karein, us par clear roadmap discuss hua.
+
+## 🧠 What We Learned
+- DSA ko kaise approach karna chahiye
+- DSA padhte waqt kya karna hai aur kya avoid karna hai
+- Development aur DSA ko parallel kaise manage karein
+- Consistency aur patience kyun important hai
+- Overthinking aur burnout se kaise bachein
+
+## ⏱ Time Management Guidance
+- Daily routine ka proper structure
+- Limited time me effective learning kaise karein
+- Practice aur revision ko kaise balance karein
+- Long-term mindset kaise build karein
+
+---
+
