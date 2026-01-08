@@ -134,4 +134,69 @@ Tailwind CSS is a **utility-first CSS framework** where we style elements using 
 
 ---
 
+## 📅 Day 72 – More into React (JSX & Props)
+
+### 📌 What I Learned
+In this session, I learned how JavaScript logic works directly inside JSX and how data flows between components using props.
+
+### 🧠 Key Concepts Covered
+- Writing JavaScript inside JSX using `{}`  
+- Passing data from parent to child components using **props**  
+- Understanding **props drilling**  
+- Using one reusable component with different properties  
+- Making UI dynamic by changing props instead of DOM manipulation  
+
+### 🔍 Important Takeaways
+- JSX allows mixing JavaScript expressions directly inside UI  
+- Props help in making components reusable and flexible  
+- A single component can behave differently based on the props passed  
+- React follows a **data-driven UI approach**, not manual DOM updates  
+
+---
+
+# Day 73 – React Conditional Rendering & Events
+
+## 📌 What We Did Today
+- Revised concepts from the previous React class
+- Built a Navbar using **props drilling**
+- Learned how to manage UI dynamically using **conditional rendering**
+- Implemented event handling in React
+
+## 🧠 Topics Covered
+- Conditional Rendering in React
+- Ternary Operator for UI control
+- Props Drilling (passing data through components)
+- Event handling in React
+  - onClick
+  - Calling functions inside JSX
+- Creating and passing functions as event listeners
+
+---
+
+# Day 74 – React useState & State Management
+
+## 📌 Overview
+Today we learned one of the most important concepts in React — **Hooks**, specifically the `useState` hook, and how React manages state inside function components.
+
+## 🧠 What are Hooks?
+Hooks are special functions provided by React that allow us to use features like state and lifecycle methods inside **function components**.
+
+`useState` is the most commonly used hook for managing state.
+
+## 🔄 What is State Management?
+State management means handling:
+- Current state (how UI looks now)
+- Previous state (how UI looked before)
+- Future state (how UI will look after changes)
+
+In React, **state defines the UI behavior**.
+
+## ⚙️ Understanding useState
+- `useState` returns two values:
+  1. Read-only value (current state)
+  2. Write-only function (to update state)
+
+---
+
+
 
