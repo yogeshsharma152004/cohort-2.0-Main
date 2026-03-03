@@ -18,9 +18,6 @@ const App = () => {
       
     // setAllUsers([{...allUsers,username,email}])
 
-      
-      
-    
      
      setUsername('')
      setEmail('')

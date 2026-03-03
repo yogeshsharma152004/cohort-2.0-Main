@@ -1,0 +1,36 @@
+body{
+  background-color: black;
+  display: flex;
+  align-items: center;
+
+}
+
+.card{
+   background-color: white;
+   
+   overflow: hidden;
+   border-radius: 20px;
+}
+.lower{
+  height: 50%;
+  width: 100%;
+}
+.lower h2{
+  font-size: 35px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.lower h3{
+  font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.upper{
+  height: 50%;
+  width: 100%;
+}
+.upper img{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}

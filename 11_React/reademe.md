@@ -199,4 +199,66 @@ In React, **state defines the UI behavior**.
 ---
 
 
+# Day 75 – Form Handling & Two-Way Binding in React
+
+## 📌 Introduction
+
+On Day 75, we deeply understood how forms work in JavaScript and how React provides a better and more structured way to handle them.
+
+Forms are a very important part of any web application — whether it's login, signup, contact form, or data submission.  
+Today’s focus was on understanding:
+
+- Default behavior of forms
+- How to stop page reload
+- Handling forms in JavaScript
+- Handling forms in React
+- Two-way data binding
+- Controlled components
+
+---
+
+# 🧠 Default Behavior of HTML Forms
+
+By default:
+
+- When we submit a form, the page reloads.
+- The browser tries to send the form data to a server.
+- This causes a full page refresh.
+
+---
+
+# Day 76 – User Card Creation & Deletion in React
+
+## 📌 Overview
+
+On Day 76, we revised form handling and state management concepts and implemented a new feature:
+Creating and Removing User Cards dynamically.
+
+This project focuses on:
+- Controlled components
+- State management
+- Dynamic rendering
+- Passing props
+- Deleting items from array state
+
+---
+
+# 🧠 Project Objective
+
+Create a form that collects:
+
+- Name
+- Image URL
+- Role
+- Description
+
+After submission:
+- A user card is created
+- Cards are displayed dynamically
+- Each card has a Remove button
+- Clicking Remove deletes that specific card
+
+---
+
+
 
