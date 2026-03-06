@@ -260,5 +260,106 @@ After submission:
 
 ---
 
+# Day 77 – LocalStorage, SessionStorage & React Fragments
+
+## 📌 Overview
+
+On Day 77, we explored browser storage mechanisms and advanced React concepts.
+
+Today’s focus was on:
+- LocalStorage
+- SessionStorage
+- JSON data handling
+- React Fragments
+- Proper data flow in React
+
+This session was more practical and focused on real-world implementation.
+
+---
+
+# 🗄️ What is LocalStorage?
+
+LocalStorage is a browser storage mechanism that allows us to store data permanently in the browser.
+
+- Data remains even after browser refresh.
+- Data remains even after closing the browser.
+- Storage limit ≈ 5MB
+
+## ✅ Common Use Cases
+
+- Storing login information
+- Saving theme preferences (dark/light mode)
+- Storing cart data
+- Remembering user settings
+
+---
+
+# 🗂️ What is SessionStorage?
+
+SessionStorage is similar to LocalStorage but:
+
+- Data is cleared when the tab is closed.
+- It works only for one session.
 
 
+
+---
+
+# Day 78 – Axios, API Handling & Introduction to useEffect
+
+## 📌 Overview
+
+On Day 78, we learned how modern web applications communicate with servers using APIs.  
+The main focus of the session was understanding **Axios**, **API requests**, and the basics of **useEffect** in React.
+
+This session helped in understanding how real-world applications fetch and display dynamic data.
+
+---
+
+# 🌐 What is an API?
+
+API stands for **Application Programming Interface**.
+
+It allows two different applications to communicate with each other.
+
+Example:
+Frontend ➝ sends **request**  
+Server ➝ sends **response**
+
+Example Flow:
+
+User → Frontend → API Request → Server → Response → UI Update
+
+---
+
+# 📦 What is Axios?
+
+Axios is a **JavaScript library** used to make HTTP requests to APIs.
+
+It is commonly used in React applications to fetch data from servers.
+
+## Why Axios is Popular?
+
+- Easy to use
+- Handles JSON automatically
+- Better error handling
+- Cleaner syntax compared to fetch
+
+---
+
+
+# Day 79 – useEffect in React
+
+Today I learned about the **useEffect Hook** in React and how it is used to handle **side effects** in applications.
+
+React’s primary job is **rendering and updating the UI**, but sometimes we need to perform other tasks like fetching data from APIs, storing data, or interacting with browser features. These tasks are called **side effects**, and `useEffect` helps us manage them.
+
+---
+
+## What is useEffect?
+
+`useEffect` is a **React Hook** that allows us to perform side effects inside function components.
+
+It runs **after the component renders**.
+
+---
