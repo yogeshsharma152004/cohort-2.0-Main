@@ -7,6 +7,7 @@ Today’s session was a preparation step before starting React. We revised some 
 ## 📌 Topics Covered
 
 ### 1️⃣ JavaScript Destructuring
+
 - Learned how to extract values from objects and arrays easily.
 - Helps in writing cleaner, shorter, and more readable code.
 - Very commonly used in React props and state handling.
@@ -14,12 +15,14 @@ Today’s session was a preparation step before starting React. We revised some 
 ---
 
 ### 2️⃣ Module JavaScript (Import & Export)
+
 - Understood why modular code is important in modern frontend development.
 - Learned how JavaScript files communicate with each other using modules.
 
 ---
 
 ### 3️⃣ Default Export
+
 - Used when a file exports only one main value.
 - Can be imported with any name.
 
@@ -49,6 +52,7 @@ Today’s class was an introduction to React and how it works at a fundamental l
 # Day 69 – React Folder Structure & Vite Introduction 🚀
 
 ## Overview
+
 In this session, I learned how a real React project is created and structured using **Vite**.  
 Before writing React components, we focused on understanding the tooling and architecture behind a React application.
 
@@ -67,10 +71,10 @@ Before writing React components, we focused on understanding the tooling and arc
 
 ---
 
-
-# Day 70 – React  & Virtual DOM 🚀
+# Day 70 – React & Virtual DOM 🚀
 
 ## Overview
+
 This session focused on revising React basics and understanding how React improves performance using the **Virtual DOM**.  
 We also learned about code quality tools and project structure used in real-world React applications.
 
@@ -89,21 +93,13 @@ We also learned about code quality tools and project structure used in real-worl
 
 ---
 
-
-
-
-
 ## 🚀 Day 71– Tailwind CSS in React
 
 Today I learned about **Tailwind CSS** and how it is used in **React applications** to build fast, clean, and scalable user interfaces.
 
----
-
 ## 📌 What is Tailwind CSS?
 
 Tailwind CSS is a **utility-first CSS framework** where we style elements using predefined utility classes directly in HTML or JSX instead of writing custom CSS repeatedly.
-
----
 
 ## ❓ Why Use Tailwind CSS?
 
@@ -113,8 +109,6 @@ Tailwind CSS is a **utility-first CSS framework** where we style elements using 
 - Easy responsiveness and customization
 - Perfect fit for component-based frameworks like React
 
----
-
 ## 🧠 What I Learned Today
 
 - How Tailwind CSS works internally
@@ -122,8 +116,6 @@ Tailwind CSS is a **utility-first CSS framework** where we style elements using 
 - Using Tailwind via CDN in normal HTML projects
 - Installing and configuring Tailwind CSS in a React project
 - How Tailwind classes are used inside JSX
-
----
 
 ## ⚛️ Tailwind in React
 
@@ -137,32 +129,37 @@ Tailwind CSS is a **utility-first CSS framework** where we style elements using 
 ## 📅 Day 72 – More into React (JSX & Props)
 
 ### 📌 What I Learned
+
 In this session, I learned how JavaScript logic works directly inside JSX and how data flows between components using props.
 
 ### 🧠 Key Concepts Covered
-- Writing JavaScript inside JSX using `{}`  
-- Passing data from parent to child components using **props**  
-- Understanding **props drilling**  
-- Using one reusable component with different properties  
-- Making UI dynamic by changing props instead of DOM manipulation  
+
+- Writing JavaScript inside JSX using `{}`
+- Passing data from parent to child components using **props**
+- Understanding **props drilling**
+- Using one reusable component with different properties
+- Making UI dynamic by changing props instead of DOM manipulation
 
 ### 🔍 Important Takeaways
-- JSX allows mixing JavaScript expressions directly inside UI  
-- Props help in making components reusable and flexible  
-- A single component can behave differently based on the props passed  
-- React follows a **data-driven UI approach**, not manual DOM updates  
+
+- JSX allows mixing JavaScript expressions directly inside UI
+- Props help in making components reusable and flexible
+- A single component can behave differently based on the props passed
+- React follows a **data-driven UI approach**, not manual DOM updates
 
 ---
 
 # Day 73 – React Conditional Rendering & Events
 
 ## 📌 What We Did Today
+
 - Revised concepts from the previous React class
 - Built a Navbar using **props drilling**
 - Learned how to manage UI dynamically using **conditional rendering**
 - Implemented event handling in React
 
 ## 🧠 Topics Covered
+
 - Conditional Rendering in React
 - Ternary Operator for UI control
 - Props Drilling (passing data through components)
@@ -176,15 +173,19 @@ In this session, I learned how JavaScript logic works directly inside JSX and ho
 # Day 74 – React useState & State Management
 
 ## 📌 Overview
+
 Today we learned one of the most important concepts in React — **Hooks**, specifically the `useState` hook, and how React manages state inside function components.
 
 ## 🧠 What are Hooks?
+
 Hooks are special functions provided by React that allow us to use features like state and lifecycle methods inside **function components**.
 
 `useState` is the most commonly used hook for managing state.
 
 ## 🔄 What is State Management?
+
 State management means handling:
+
 - Current state (how UI looks now)
 - Previous state (how UI looked before)
 - Future state (how UI will look after changes)
@@ -192,12 +193,12 @@ State management means handling:
 In React, **state defines the UI behavior**.
 
 ## ⚙️ Understanding useState
+
 - `useState` returns two values:
   1. Read-only value (current state)
   2. Write-only function (to update state)
 
 ---
-
 
 # Day 75 – Form Handling & Two-Way Binding in React
 
@@ -235,13 +236,12 @@ On Day 76, we revised form handling and state management concepts and implemente
 Creating and Removing User Cards dynamically.
 
 This project focuses on:
+
 - Controlled components
 - State management
 - Dynamic rendering
 - Passing props
 - Deleting items from array state
-
----
 
 # 🧠 Project Objective
 
@@ -253,6 +253,7 @@ Create a form that collects:
 - Description
 
 After submission:
+
 - A user card is created
 - Cards are displayed dynamically
 - Each card has a Remove button
@@ -267,6 +268,7 @@ After submission:
 On Day 77, we explored browser storage mechanisms and advanced React concepts.
 
 Today’s focus was on:
+
 - LocalStorage
 - SessionStorage
 - JSON data handling
@@ -274,8 +276,6 @@ Today’s focus was on:
 - Proper data flow in React
 
 This session was more practical and focused on real-world implementation.
-
----
 
 # 🗄️ What is LocalStorage?
 
@@ -292,16 +292,12 @@ LocalStorage is a browser storage mechanism that allows us to store data permane
 - Storing cart data
 - Remembering user settings
 
----
-
 # 🗂️ What is SessionStorage?
 
 SessionStorage is similar to LocalStorage but:
 
 - Data is cleared when the tab is closed.
 - It works only for one session.
-
-
 
 ---
 
@@ -313,8 +309,6 @@ On Day 78, we learned how modern web applications communicate with servers using
 The main focus of the session was understanding **Axios**, **API requests**, and the basics of **useEffect** in React.
 
 This session helped in understanding how real-world applications fetch and display dynamic data.
-
----
 
 # 🌐 What is an API?
 
@@ -329,8 +323,6 @@ Server ➝ sends **response**
 Example Flow:
 
 User → Frontend → API Request → Server → Response → UI Update
-
----
 
 # 📦 What is Axios?
 
@@ -347,19 +339,167 @@ It is commonly used in React applications to fetch data from servers.
 
 ---
 
-
 # Day 79 – useEffect in React
 
 Today I learned about the **useEffect Hook** in React and how it is used to handle **side effects** in applications.
 
 React’s primary job is **rendering and updating the UI**, but sometimes we need to perform other tasks like fetching data from APIs, storing data, or interacting with browser features. These tasks are called **side effects**, and `useEffect` helps us manage them.
 
----
-
 ## What is useEffect?
 
 `useEffect` is a **React Hook** that allows us to perform side effects inside function components.
 
 It runs **after the component renders**.
+
+---
+
+# Day 80 – Routing in React (React Router DOM)
+
+## Overview
+
+Today we learned how to create **multiple pages in a React application** using **React Router DOM**.
+
+Routing allows users to navigate between different pages without reloading the entire application.
+
+React itself does not provide built-in routing, so we use the **react-router-dom** library.
+
+# What is Routing?
+
+Routing means navigating from **one page to another page** in a web application.
+
+Example pages:
+
+- Home
+- About
+- Contact
+- Profile
+- Products
+
+In React, routing is handled on the **client side**, which makes navigation fast and smooth.
+
+---
+
+# Day 81 – React Router DOM in a Nutshell
+
+## Overview
+
+Today we revised and summarized the core concepts of **React Router DOM**.
+
+React applications are usually built as **Single Page Applications (SPA)**.  
+In an SPA, the page does not reload when the URL changes.
+
+To manage navigation between different pages, we use **React Router DOM**.
+
+# Why React Router DOM is Used
+
+React only renders UI components but does not provide built-in routing.
+
+When the URL changes in a normal SPA:
+
+- The page does not reload
+- The content does not change automatically
+
+To handle navigation between pages properly, we use **React Router DOM**.
+
+# React Router vs React Router DOM
+
+React Router ecosystem contains two main packages:
+
+### React Router
+
+Handles the **core routing logic** and navigation.
+
+### React Router DOM
+
+Used specifically for **web applications** to track URL changes and render components accordingly.
+
+# Types of Routers
+
+## 1. BrowserRouter
+
+The most commonly used router in modern React applications.
+
+Features:
+
+- Uses **History API**
+- Clean URLs
+- Good SEO support
+- Requires server configuration
+
+## 2. HashRouter
+
+HashRouter works similar to BrowserRouter but includes `#` in the URL.
+
+Features:
+
+- Works in older browsers
+- No server configuration needed
+- Not SEO friendly
+
+## 3. MemoryRouter
+
+MemoryRouter stores routes in memory instead of the browser URL.
+
+Used in:
+
+- React Native applications
+- Testing environments
+
+## 4. StaticRouter
+
+StaticRouter is mainly used in **Server Side Rendering (SSR)** environments.
+
+It helps render routes on the server before sending HTML to the client.
+
+# Important Navigation Tools
+
+## NavLink
+
+NavLink is similar to `Link` but provides additional styling when the link is active.
+
+---
+
+# Day 82 – Context API in React
+
+## Overview
+
+Today we learned about **Context API**, a built-in feature in React used to manage and share data between multiple components without passing props manually through each level.
+
+This helps solve the problem known as **props drilling**.
+
+# What is Props Drilling?
+
+Props drilling happens when we pass data from a **parent component to deeply nested child components** through multiple layers.
+
+Example:
+
+Parent → Child → Grandchild → Great Grandchild
+
+Each component in between must pass the props even if it does not use them.
+
+This makes the code messy and harder to maintain.
+
+# What is Context API?
+
+Context API provides a **centralized way to store and share data** across components.
+
+Instead of passing props through every component, any component can directly access the data from the context.
+
+# Why Context API is Used
+
+Context API is commonly used when data needs to be shared globally in an application.
+
+Examples:
+
+- User authentication data
+- Theme (dark mode / light mode)
+- Language preferences
+- Application settings
+
+# Basic Steps to Use Context API
+
+1️⃣ Create a Context  
+2️⃣ Provide the Context to components  
+3️⃣ Consume the Context where data is needed
 
 ---
