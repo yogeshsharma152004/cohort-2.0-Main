@@ -503,3 +503,32 @@ Examples:
 3️⃣ Consume the Context where data is needed
 
 ---
+
+# Day 83 – Context API in React
+
+## Overview
+
+Today we explored **Context API** in depth and understood how it helps manage shared data across multiple components in a React application.
+
+Normally in React, data flows from **Parent ➝ Child** using props.  
+But when the component tree becomes deep, passing props through many layers becomes complicated. This is called **props drilling**.
+
+Context API solves this problem by creating a **centralized data store** that any component can access directly.
+
+
+
+# Why Context API is Used
+
+Context API is used to:
+
+- Avoid props drilling
+- Share data globally
+- Make code cleaner and easier to maintain
+
+Examples where Context API is commonly used:
+
+- User authentication
+- Theme (dark / light mode)
+- Language preferences
+- Global application settings
+
