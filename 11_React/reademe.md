@@ -532,3 +532,160 @@ Examples where Context API is commonly used:
 - Language preferences
 - Global application settings
 
+---
+
+# Day 84 – Context API in Action (Real Project Flow)
+
+## Overview
+
+Day 84 focused on implementing **Context API in a real-world project scenario**.  
+This session connected multiple previously learned concepts and showed how modern frontend applications manage API data and routing.
+
+The class simulated a **real e-commerce style application flow**, where product data is fetched from an API and shared across multiple components.
+
+
+
+# Key Concepts Covered
+
+## 1. API Handling in Real Projects
+
+Modern frontend applications rely heavily on APIs to fetch dynamic data.
+
+In this session we used the **FakeStore API** to fetch product data and display it inside the application.
+
+
+
+# Using Axios with Context API
+
+Instead of fetching data separately in each component, we used **Context API** to centralize API data.
+
+This approach provides several advantages:
+
+- Avoids repeated API calls
+- Keeps data management in one place
+- Makes data accessible across the entire application
+
+
+
+# Centralized Data Flow
+
+Using Context API allows the application to follow a clean structure:
+
+Components can directly access the data using **useContext**.
+
+This removes the need for **props drilling**.
+
+
+
+# Dynamic Routing with Product IDs
+
+The project also implemented **dynamic routing** using React Router.
+
+
+Fetch products from API
+        ↓
+Store data in Context
+        ↓
+Display product list
+        ↓
+Click product
+        ↓
+Navigate to product details page
+
+---
+
+# Day 85 – Redux Toolkit (State Management)
+
+## Overview
+
+In this session we learned about **Redux Toolkit**, a modern and simplified way to manage application state in React.
+
+React is mainly used for **building user interfaces**, but when applications become large, managing data across multiple components becomes difficult.
+
+To solve this problem, we use **state management tools** like Redux.
+
+Redux helps us **store application data in one centralized store**, making it easy for any component to access and update the data.
+
+
+
+# Why State Management is Needed
+
+In small applications, React state works well.
+
+But in large applications, problems occur when we pass data from one component to another.
+
+Example:
+
+Parent → Child → Grandchild → Great Grandchild
+
+This process is called **Props Drilling**.
+
+Problems with props drilling:
+
+- Code becomes messy
+- Difficult to maintain
+- Hard to track data flow
+- Components become tightly coupled
+
+
+# What is Redux
+
+Redux is a **state management library** that stores application data in a **single centralized store**.
+
+Instead of storing state in multiple components, Redux keeps all state in one place.
+
+
+Redux is inspired by **Flux Architecture created by Facebook**.
+
+Main idea:
+
+> Keep one centralized store for the entire application.
+
+
+
+# Problems with Old Redux
+
+Earlier Redux versions had several problems:
+
+- Complex syntax
+- Too much boilerplate code
+- Multiple files needed
+- Difficult for beginners
+
+Example:
+
+- action types
+- action creators
+- reducers
+- store setup
+
+All these things made Redux complicated.
+
+---
+
+# Introduction to Redux Toolkit
+
+Redux Toolkit is the **modern and recommended way** to use Redux.
+
+It simplifies Redux development by reducing boilerplate code and providing built-in tools.
+
+Advantages:
+
+- Simpler syntax
+- Faster setup
+- Less code
+- Better developer experience
+
+Redux Toolkit is mostly used in **large and scalable applications**.
+
+---
+
+# Creating a Store
+
+The **store** is the central place where all application state is stored.
+
+In Redux Toolkit, we create a store using **configureStore**.
+
+
+---
+
